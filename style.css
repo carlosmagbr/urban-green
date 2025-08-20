@@ -1,0 +1,521 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4 {
+    font-family: Caveat;
+    font-weight: bold;
+}
+
+h3, h4 {
+    color: #E50432;
+    padding-bottom: 1rem;
+}
+
+h1 {
+    font-size: 60px;
+    line-height: 76px;
+    text-transform: uppercase;
+    color: #000;
+    padding-bottom: 20px;
+}
+
+h2 {
+    font-size: 53px;
+    line-height: 100%;
+    color: #000;
+    width: 415px;
+    margin: auto;
+    text-align: center;
+}
+
+h3 {
+    font-size: 33px;
+    line-height: 42px;
+
+}
+
+h4 {
+    font-family: Caveat;
+    font-size: 27px;
+    line-height: 34px;
+    color: #E50432;
+    text-align: center;
+    padding: 15px 0;
+}
+
+section {
+    padding: 4rem 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+
+
+
+.divider {
+    width: 80px;
+    height: 15px;
+    background: #236BFF;
+    margin: 10px auto 75px auto;
+}
+
+/* Topo */
+
+header {
+    width: 100%;
+    background: rgba(232, 35, 76, 0.8);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+    position: fixed;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem 0;
+}
+
+.logo img {
+    max-width: 100px;
+    width: 100%;
+    display: block
+}
+
+.hero .container {
+    justify-content: space-between;
+    padding: .5rem 0;
+    align-items: center;
+}
+
+/* Menu */
+
+.logo {
+    display: inline-block
+}
+
+.menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu a {
+    font-family: Barlow;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFF;
+    text-decoration: none;
+    padding: 10px;
+    transition: ease-in 0.3s;
+}
+
+.menu a:hover {
+    background-color: #F5204b;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* Banner */
+
+.hero {
+    width: 100%;
+    height: 80vh;
+    background-image: url(img/background-banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 0;
+}
+
+.hero .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    height: 100%;
+    max-width: 1100px;
+    text-align: center;
+}
+
+
+.hero p {
+    font-family: Barlow;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #000;
+    padding: 0 3rem;
+}
+
+/* Evento */
+
+.event-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.event-box {
+    width: 23%;
+    /* max-width: 261px; */
+}
+
+.event-box img {
+    width: 100%;
+    height: 160px;
+    border-radius: 30px 30px 0px 0px;
+}
+
+.event-box p {
+    font-family: Barlow;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #000;
+}
+
+/* Universo */
+
+#universe {
+    background: #F2F2F2
+}
+
+.universe-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.universe-container img{
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+.text-universe {
+    width: 100%;
+    max-width: 540px;
+}
+
+.text-universe p {
+    font-family: Barlow;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000;
+    padding-bottom: 15px;
+    color: #000000;
+}
+
+.botao-menor {
+    width: 165px;
+    height: 45px;
+    margin-top: 15px;
+    background: #236BFF;
+    border-radius: 15px;
+    font-family: Barlow;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: ease-in 0.3s;
+}
+
+.botao-menor:hover {
+    box-shadow: 0px 0px 8px #0A2E76;
+}
+
+/* Cadastro */
+
+#register {
+    background-image: url(../Img/background-form.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+#register h2 {
+    color: #fff;
+}
+
+.register-container {
+    width: 100%;
+    max-width: 790px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    font-family: Barlow;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFF;
+    padding-bottom: 5px;
+}
+
+.register-input {
+    display: block;
+    width: 100%;
+    max-width: 788px;
+    height: 60px;
+    background: #FFF;
+    border: 1px solid #FFF;
+    box-sizing: border-box;
+    box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    outline: none;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.register-button {
+    width: 100%;
+    max-width: 548px;
+    height: 63px;
+    background: #236BFF;
+    border-radius: 20px;
+    border: none;
+    font-family: Barlow;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFF;
+    cursor: pointer;
+    margin: 44px auto 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: ease-in 0.3s;
+}
+
+.register-button:hover {
+    background: #0A2E76;
+    box-shadow: 0px 0px 8px #0A2E76;
+}
+
+/* Certificados */
+#certificates .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.certificates-title {
+    font-family: Caveat;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 100%;
+    color: #000;
+    text-align: left;
+}
+
+.certificates-logos {
+    width: 540px;
+    display: flex;
+    justify-content: space-between;
+}
+/* rodape */
+footer {
+    width: 100%;
+    height: 50px;
+    background: #2a2a2a;
+    font-family: Barlow;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #FFF;
+    text-align: center;
+    padding-top: 20px;
+}
+
+@media screen and (max-width:1024px) {
+    .container{
+        max-width: 1000px;
+    }
+
+    .banner {
+        background-position: center;
+    }
+
+    .evento-box {
+        display: inline-block;
+    }
+
+    .evento-box-caixa {
+        /* padding: 10px; */
+        display: inline-block;
+        text-align: center;
+        width: 49%;
+        /* max-width: 261px; */
+    }
+
+    .evento-box-caixa img {
+        width: 70%;
+        height: 200px;
+        border-radius: 30px 30px 0px 0px;
+    }
+
+    .evento-box-caixa p {
+        width: 70%;
+        margin: auto;
+        padding-bottom: 10%;
+    }
+
+    .conteudo-secao {
+        display: flex;
+        flex-direction: column;
+        /* padding-left: 25%; */
+    }
+
+    .conteudo-secao img {
+        margin: auto;
+    }
+
+    .conteudo-secao-conteudo {
+        text-align: justify;
+        width: 90%;
+        margin: auto;
+    }
+
+    .conteudo-secao h3 {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .botao-menor {
+        margin: auto;
+    }
+
+    .dois {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .certificados {
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+    }
+
+    .certificados-titulo {
+        text-align: center;
+        width: 100%;
+        padding-bottom: 10%;
+    }
+
+    .certificados-logos {
+        display: inline;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .event-container{
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    section{
+        padding: 3rem 1rem;
+    }
+
+    .event-box {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .universe-container{
+        flex-direction: column;
+    }
+
+    .universe-container:nth-of-type(2){
+        flex-direction: column-reverse;
+    }
+
+    #certificates .container{
+        flex-direction: column;
+        gap: 1rem;
+        align-items: center;
+    }
+
+    .certificates-title{
+        text-align: center;
+    }
+
+    .certificates-logos{
+        flex-direction: column;
+        max-width: 300px;
+        gap: 1rem;
+    }
+
+    header img {
+        text-align: center;
+        width: 100px;
+    }
+
+    .menu {
+        padding-inline-start: 0;
+        display: flex;
+        flex-direction: row;
+    }
+
+    nav {
+        margin: auto;
+    }
+
+    .menu a {
+        display: inline;
+        font-size: 15px;
+        line-height: 15px;
+        color: #FFF;
+        text-decoration: none;
+        padding: 0;
+        padding-left: 10px;
+        transition: ease-in 0.3s;
+        text-align: center;
+    }
+
+
+    .banner {
+        background-position: center;
+    }
+
+    .banner-texto h1 {
+        font-size: 30px;
+        line-height: 50px;
+    }
+
+    .evento-box-caixa {
+        /* padding: 10px; */
+        display: inline-block;
+        text-align: center;
+        width: 95%;
+        /* max-width: 261px; */
+    }
+
+    .conteudo-secao img {
+        width: 70%;
+
+    }
+
+    .cadastro-conteudo {
+        width: 90%;
+    }
+}
